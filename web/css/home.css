@@ -1,0 +1,36 @@
+.column{
+   display: flex; 
+   flex-flow: column;
+   position: relative;
+}
+.row{
+   display: flex; 
+   flex-flow: row; 
+   justify-content: center;
+}
+.width25{
+    -ms-flex: 0 0 20%;
+    flex: 0 0 20%;
+    max-width: 20%;
+    padding: 5px;
+}
+.image{
+    width: 250px;
+    height: 300px;
+}
+.image img{
+    width: 250px;
+    height: 300px;
+}
+.marginh {
+    margin: 20px;
+    padding: 20px;
+}
+.mt{
+    margin-top: 10px;
+}
+@media(max-width: 992px){
+    .row{
+        flex-flow: column; 
+     }
+}

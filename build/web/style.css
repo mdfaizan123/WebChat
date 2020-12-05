@@ -1,0 +1,270 @@
+.text-color-red{
+    color: #C83440;
+}
+
+body{
+    line-height: 1.5;
+}
+
+
+
+.navbar-brand{
+    font-size: 33px;
+}
+.navbar-default {
+    background-color: white;
+    border-color: #e9dfdf;
+}
+
+.navbar-brand {
+    font-family: initial;
+    color: red;
+    
+}
+#mainNavbar .navbar-brand {
+    color: #C83440;
+    
+}
+.navbar-collapse {
+    flex-grow: 0;
+    
+}
+.navbar-nav{
+    font-size: 18px;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1.3rem;
+    padding-left: 1.3rem;
+}
+a:hover,a.active{
+    background: none;
+    color: #0082e6;
+  }
+  
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #C83440;
+}
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+    color: #C83440;
+}
+
+.input-group {
+    margin-top: 10px;
+    
+}
+
+.form-control {
+    border-radius: 1rem;
+}
+
+.input-group > .input-group-append > .btn, .input-group > .input-group-append > .input-group-text, .input-group > .input-group-prepend:first-child > .btn:not(:first-child), .input-group > .input-group-prepend:first-child > .input-group-text:not(:first-child), .input-group > .input-group-prepend:not(:first-child) > .btn, .input-group > .input-group-prepend:not(:first-child) > .input-group-text {
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    background-color: white;
+}
+.input-group > .custom-select:not(:last-child), .input-group > .form-control:not(:last-child) {
+    border-right-color: white;
+}
+
+.form-control:focus {
+    color: #495057;
+    background-color: #fff;;
+    outline: 0;
+    box-shadow: 0 0 0 0;
+    border-color: #dbdbdb;
+}
+
+a{
+    color: gray;
+}
+
+a:hover{
+    color: #C83440;
+}
+.margin{
+    margin-top: 15px;  
+}
+
+
+
+.card{
+    border: #fff;
+}
+.card-title {
+    margin-bottom: 1rem;
+}
+.slide-text{
+    font-size: 1.4rem;
+    color: aliceblue;
+}
+
+
+
+.middle{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.rotate {
+    cursor: pointer;
+    width: 262px;
+    height: 262px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.front,.back{
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  backface-visibility: hidden;
+  position: absolute;
+  transition: transform .5s linear;
+}
+.front img{
+  height: 100%;
+}
+.front{
+  transform: perspective(400px) rotateY(0deg);
+}
+.back{
+  background: #A21722;
+  transform: perspective(400px) rotateY(180deg);
+}
+.back-content{
+  color: #2c3e50;
+  text-align: center;
+  width: 100%;
+}
+
+.sm{
+  margin: 20px 0;
+}
+
+.sm a{
+  display: inline-flex;
+  width: 40px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  color: #2c3e50;
+  font-size: 18px;
+  transition: 0.4s;
+  border-radius: 50%
+}
+.sm a:hover{
+  background: #2c3e50;
+  color: white;
+}
+
+.rotate:hover > .front{
+  transform: perspective(600px) rotateY(-180deg);
+}
+.rotate:hover > .back{
+  transform: perspective(600px) rotateY(0deg);
+  border-radius: 8px;
+}
+.card-slide-color{
+   color: burlywood;
+}
+
+.display-4 {
+    font-size: 3rem;
+    font-weight: initial;
+    line-height: 1.1;
+    color: #A21722;
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
+@media(min-width: 773px){
+    .jumbotron {
+        padding: 2rem 8rem;
+        background-color: #4b0c0c;
+        border-radius: 0;
+    }
+}
+
+
+.jumbotron {
+        
+        background-color: #4b0c0c;
+        border-radius: 0;
+    }
+
+.lead {
+    color: #9ba4ac;
+    font-size: 1.1rem;
+}
+.man{
+    font-size: 25px;
+}
+
+
+.image-container{
+	width: 35px;
+        height: 35px;
+        border-radius: 50%;
+}
+.image-container img{
+	width: 35px;
+        height: 35px;
+        border-radius: 50%;
+        margin-top: -6px;
+        margin-left: -16px;
+}
+
+.image-containert:hover {
+    color: #ebecee;
+}
+
+.navbar-brand img{
+	width: 47px;
+        height: 47px;
+        border-radius: 50%;
+        margin-top: -6px;
+}
+
+.navbar-brand:hover {
+    color: #ebecee;
+}
+
+
+.image-container1{
+	width: 35px;
+        height: 35px;
+        border-radius: 50%;
+}
+.image-container1 img{
+	width: 35px;
+        height: 35px;
+        border-radius: 50%;
+        margin-top: 3px;
+        margin-left: -36px;
+        
+        
+}
+.dropdown-menu{
+    right: 15px;
+    top: 80px;
+    left: auto;
+}
+
+.dropdown-item {
+    color: gray;
+}
+
+@media(max-width: 991.98px){
+    .image-container1 img {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin-top: -61px;
+    margin-left: 21px;
+}
+
+.image-container img {
+    
+    margin-left: 0;
+}
+
+}

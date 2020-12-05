@@ -1,0 +1,95 @@
+.form-group {
+    margin-bottom: 50px;
+}
+.create-margin{
+    margin-top: 40px;
+    width: 500px;
+    
+}
+
+.form-group2 {
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+.text-color-red{
+    color: #C83440;
+}
+.margin-donator{
+    margin-top: 70px;
+    
+}
+.text30{
+    font-size: 30px;
+    text-align: center;
+}
+.form-group1 {
+    margin-bottom: 50px;
+    margin-top: 40px;
+}
+.form-control {
+    border-radius: 0.2rem;
+}
+.text40{
+    font-size: 40px;
+    text-align: center;
+    font-family: initial;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #C83440;
+    border-color: #C83440;
+    width: 200px;
+}
+.btn-primary:hover {
+    color: #fff;
+    background-color: #C83440;
+    border-color: #C83440;
+}
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show > .btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: #C83440;
+    border-color: #C83440;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus, .show > .btn-primary.dropdown-toggle:focus {
+    box-shadow: none;
+}
+
+.button-paddin{
+    padding: 30px 80px;
+}
+
+@media(max-width: 600px){
+    .login-margin{
+    margin-top: 80px;
+    width: 320px;
+    
+}
+.button-paddin{
+    padding: 20px 40px;
+}
+}
+.create{
+    text-align: center;
+}
+.form-control:focus{
+    border-color: #6c2c2c;
+}
+
+.form-check-label {
+    margin-right: 50px;
+}
+
+.form-check-input {
+    margin-top: .4rem;
+}
+.custom-select:focus {
+    border-color: #6c2c2c;
+    box-shadow: none;
+}
+
+.button-paddin-create{
+    padding: 30px 120px;
+}
